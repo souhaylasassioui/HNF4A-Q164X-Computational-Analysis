@@ -22,8 +22,8 @@ used during the original Master's research analyses.
 The nf-core/rnaseq workflow uses additional analysis
 tools, including STAR, featureCounts, and DESeq2.
 
-Their exact versions from the original workflow
-remain to be verified from pipeline execution records.
+Verified versions from the original RNA-seq execution
+are listed in the section below.
 
 ### mdplot environment
 
