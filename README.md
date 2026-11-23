@@ -97,7 +97,9 @@ HNF4A-Q164X-Computational-Analysis/
 ├── README.md
 ├── .gitignore
 ├── docs/
-│   └── differential_expression.md
+│   ├── differential_expression.md
+│   ├── reproducibility.md
+│   └── software_environment.md
 └── scripts/
     ├── differential_expression/
     │   └── filter_degs.py
@@ -115,6 +117,12 @@ HNF4A-Q164X-Computational-Analysis/
 This repository currently provides selected analysis scripts and documentation. It is not yet a fully executable end-to-end pipeline.
 
 Reproducing the complete analysis requires access to suitable input data, software dependencies, appropriate computing resources, and additional workflow documentation.
+
+Supporting documentation:
+
+- [Differential expression analysis](docs/differential_expression.md) — filtering criteria, DEG counts, and unresolved contrast direction.
+- [Reproducibility guide](docs/reproducibility.md) — workflow design, verified execution details, and limitations.
+- [Software environment](docs/software_environment.md) — observed HPC environments and confirmed original RNA-seq software versions.
 
 Raw sequencing data, unpublished DEG tables, and manuscript-related figures are not included in the Git history.
 
