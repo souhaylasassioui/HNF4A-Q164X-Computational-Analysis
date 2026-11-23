@@ -60,3 +60,30 @@ reproducible workflow.
 
 No original experimental data or unpublished
 manuscript-related results are included.
+
+## Verified Original RNA-seq Software Versions
+
+The following versions were recovered from the
+nf-core/rnaseq execution metadata dated May 15, 2026.
+
+| Software | Version |
+|---|---|
+| nf-core/rnaseq | 3.26.0 (e7ca462) |
+| Nextflow | 26.04.0 |
+| STAR | 2.7.11b |
+| Subread / featureCounts | 2.0.6 |
+| DESeq2 | 1.46.0 |
+| R | 4.4.2 |
+| Salmon | 1.10.3 |
+| SAMtools | 1.23.1 |
+| FastQC | 0.12.1 |
+| Picard | 3.4.0 |
+| Qualimap | 2.3 |
+| RSeQC | 5.0.4 |
+
+Source: Original nf-core/rnaseq pipeline metadata,
+including nf_core_rnaseq_software_mqc_versions.yml
+and MultiQC software version records.
+
+These versions describe the original RNA-seq workflow,
+not necessarily other analyses in this project.
