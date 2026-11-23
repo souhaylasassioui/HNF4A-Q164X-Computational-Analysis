@@ -55,8 +55,11 @@ a complete executable analysis pipeline.
 Raw sequencing data and unpublished research outputs
 are excluded.
 
-Exact software versions and complete execution
-instructions are not yet documented.
+Original RNA-seq software versions and verified execution
+metadata are recorded below and in
+[Software Environment](software_environment.md).
+Complete end-to-end execution instructions and
+runtime specifications for other analyses remain incomplete.
 
 ## Verified RNA-seq Execution
 
