@@ -57,3 +57,37 @@ are excluded.
 
 Exact software versions and complete execution
 instructions are not yet documented.
+
+## Verified RNA-seq Execution
+
+Original execution date: May 15, 2026.
+
+The final recorded nf-core/rnaseq execution
+completed successfully.
+
+### Confirmed Configuration
+
+- nf-core/rnaseq: v3.26.0 (e7ca462)
+- Nextflow: 26.04.0
+- Reference genome: GRCm39
+- Gene annotation: GENCODE mouse M33
+- Alignment mode: star_salmon
+- featureCounts grouping: gene_type
+- Input: samplesheet.csv
+- Samples: 6 paired-end RNA-seq libraries
+
+### Execution Summary
+
+- Completed tasks in final execution: 31
+- Cached tasks reused: 223
+- Failed tasks: 0
+- Aborted tasks: 0
+
+The execution report states:
+"Workflow execution completed successfully!"
+
+These details were recovered from the original
+May 15, 2026 Nextflow execution metadata.
+
+The provenance of the downstream 203-DEG table
+has not yet been directly established.
