@@ -1,0 +1,61 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large alignment and sequencing files
+*.bam
+*.bai
+*.sam
+*.cram
+*.sra
+
+# HPC and workflow intermediates
+work/
+.nextflow/
+.nextflow*
+slurm-*.out
+*.log
+logs/
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+*.token
+
+# Python/R temporary files
+__pycache__/
+.ipynb_checkpoints/
+.Rhistory
+.RData
+*.pyc
+
+# OS files
+.DS_Store
+
+# Bioinformatics environments
+alphagenome_env/
+alphagenome_py311/
+venv/
+.venv/
+
+# Molecular dynamics trajectories
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.cpt
+*.gro
+
+# Additional credentials
+*api_key*
+*.credentials
+credentials.json
+
+# Large research archives
+*.tar.gz
+*.zip
